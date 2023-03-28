@@ -1,0 +1,11 @@
+#User function Template for python3
+
+class Solution:
+    def immediateSmaller(self,arr,n,x):
+        #return required ans
+        
+        s=-1
+        for i in arr:
+            if 0<x -i < x - s:
+                s=i
+        return s
